@@ -1,0 +1,36 @@
+p{
+    font-size: 20px;
+    margin: 25px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    justify-self: center;
+}
+h4{
+    color: #006EB6;
+    text-decoration: underline lightgray;
+    text-underline-offset: 10px;
+}
+h1, h4{
+    justify-self: center;
+    line-height: 1.5;
+    letter-spacing: 0.25em; 
+    text-transform: uppercase;
+}
+.logo{
+    width: 150px;
+}
+.indent{
+    padding: 1em;
+}
+footer {
+    justify-self: center;
+}
+.content {
+    outline: auto;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    outline-color: lightgrey;
+    max-width: 600px;
+}
