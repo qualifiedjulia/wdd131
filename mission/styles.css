@@ -7,7 +7,7 @@ body{
     justify-self: center;
 }
 h4{
-    color: #006EB6;
+    color: #006eb6;
     text-decoration: underline lightgray;
     text-underline-offset: 10px;
 }
@@ -33,4 +33,11 @@ footer {
     padding-right: 100px;
     outline-color: lightgrey;
     max-width: 600px;
+}
+.dark{
+    background-color: #333;
+    color: white;
+}
+.dark h4{
+    color: #4F9ACF;
 }
