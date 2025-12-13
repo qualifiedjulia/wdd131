@@ -81,7 +81,7 @@ const all_textboxes = [myTextBox, myTextBox_2, myTextBox_3, myTextBox_4, myTextB
 
 hide_button.addEventListener('click', () => {
     all_textboxes.forEach(textbox => {
-        textbox.classList.toggle('hidden');
+        textbox.classList.remove('show');
     });
-    location.reload();
+    
 });
